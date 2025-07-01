@@ -28,10 +28,10 @@ export const DriverStandings: React.FC<Props> = ({ drivers }) => {
                 <Trophy size={16} className="text-yellow-500" />
                 <span>{driver.wins}</span>
               </div>
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 <Medal size={16} className="text-gray-400" />
                 <span>{driver.podiums}</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-2">
                 <Flag size={16} className="text-blue-500" />
                 <span className="font-bold">{driver.points}</span>

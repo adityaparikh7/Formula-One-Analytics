@@ -13,7 +13,7 @@ export const Navigation: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <BarChart3 className="text-indigo-600" size={24} />
-            <h1 className="text-xl font-bold text-gray-900">F1 Analytics</h1>
+            <h1 className="text-xl font-bold text-gray-900">Formula 1 Analytics</h1>
           </div>
           <div className="flex gap-6">
             <Link
